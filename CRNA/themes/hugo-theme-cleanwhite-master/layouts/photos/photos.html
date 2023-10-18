@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="photo-gallery">
+    <h1>Photo Gallery</h1>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+        }
+    </style>
+    <div class="gallery">
+        <img src="/img/Riverside.jpg" alt="Photo 1">
+        <img src="/img/Riverside6.jpg" alt="Photo 3">
+        <img src="/img/Riverside2.jpg" alt="Photo 3">
+        <img src="/img/Riverside3.jpg" alt="Photo 3">
+        <img src="/img/Riverside4.jpg" alt="Photo 3">
+        <img src="/img/Riverside5.jpg" alt="Photo 3">
+        <img src="/img/Riverside6.jpg" alt="Photo 3">
+        <img src="/img/Riverside7.jpg" alt="Photo 3">
+        <img src="/img/Riverside8.jpg" alt="Photo 3">
+        <img src="/img/Riverside9.jpg" alt="Photo 3">
+        <img src="/img/Riverside10.jpg" alt="Photo 3">
+        <img src="/img/Riverside11.jpg" alt="Photo 3">
+        <img src="/img/Riverside9.jpg" alt="Photo 3">
+        <img src="/img/Riverside4.jpg" alt="Photo 3">
+        <img src="/img/Riverside7.jpg" alt="Photo 3">
+        <!-- Add more images as needed -->
+    </div>
+</div>
+{{ end }}

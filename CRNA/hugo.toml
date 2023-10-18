@@ -1,4 +1,40 @@
-baseURL = 'https://example.org/'
+baseURL = ''
 languageCode = 'en-us'
-title = 'CRNA LAB'
+title = 'Carter-Riverside Neighborhood Association(CRNA)'
 theme = 'hugo-theme-cleanwhite-master'
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "photos"
+    name = "Photos"
+    url = "/photos/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "newsletters"
+    name = "Newsletters"
+    url = "/newsletters/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "old"
+    name = "Old"
+    url = "/old/"
+    weight = 4
+
+[[menu.main]]
+    identifier = "current"
+    name = "Current"
+    url = "/current/"
+    weight = 5
+
+[[menu.main]]
+    identifier = "events"
+    name = "Events / Calendar"
+    url = "/events/"
+    weight = 6
